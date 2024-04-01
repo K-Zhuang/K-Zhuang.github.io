@@ -1,3 +1,15 @@
+Notes
+- Remember to commit changes to keep main in sync with deployed gh-page
+- Deploy to gh-pages
+  - npm run deploy
+- Keep npm package in sync
+  - Delete package-lock.json
+  - npm install
+
+
+
+________________________________
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
