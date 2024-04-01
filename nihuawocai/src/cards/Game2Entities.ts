@@ -18,6 +18,13 @@ export class Card {
     }
 }
 
+export class Deck {
+    cards: Array<Card>;
+    constructor(numDecks: number) {
+        this.cards = [new Card(Suit.SPADE, 1)]
+    }
+}
+
 export class Hand {
     cards: $ReadOnlyMap<Suit, Value>;
 
@@ -27,7 +34,8 @@ export class Hand {
 }
 
 export class Player {
-
+    points: number = 0;
+    hand: Hand = [];
 }
 
 export class Team {
