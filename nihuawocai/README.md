@@ -5,6 +5,7 @@ Notes
 - Keep npm package in sync
   - Delete package-lock.json
   - npm install
+- Jekyll can be used for local testing
 
 
 
